@@ -6,9 +6,9 @@ export interface StreamingClientOptions {
   accessToken: string
   instanceUrl: string
   name: string
-  version: string
+  version?: string
   replay?: boolean
-  onMessage: OnMessage
+  onMessage?: OnMessage
 }
 
 export interface RecvMessagesOpts {
